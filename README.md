@@ -45,5 +45,12 @@ python build.py
 ```
 5. After building, the executable will be available in the dist/ folder.
 
+---
+ 
+### **License**
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
 
 
