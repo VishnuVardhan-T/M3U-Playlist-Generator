@@ -23,11 +23,13 @@ def resource_path(relative_path):
 DOWNLOAD_ICON_PATH = resource_path(os.path.join('assets', 'download.png'))
 DELETE_ICON_PATH = resource_path(os.path.join('assets', 'delete.png'))
 DRAG_DROP_ICON_PATH = resource_path(os.path.join('assets', 'upload.png'))
+APP_ICON_PATH = resource_path(os.path.join('assets', 'icon.ico'))
 # ==============================================
 
 class M3UPlaylistGenerator(ctk.CTk):
     def __init__(self):
         super().__init__()
+        self.iconbitmap(APP_ICON_PATH)
         self.title("M3U Playlist Generator")
         self.geometry("725x240")
         self.resizable(False, False)
