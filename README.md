@@ -10,6 +10,7 @@ Happy Streaming!😁
 
 ## **Screenshots**
 <img src="assets/screenshots/app-screenshot-1.png" alt="App Screenshot"/>
+
 ---
 
 ## **Installation & Usage**
