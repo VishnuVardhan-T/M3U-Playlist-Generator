@@ -13,7 +13,7 @@ PyInstaller.__main__.run([
     'm3u_playlist_gen.py',
     '--onedir',              # Faster than --onefile
     '--windowed',            # No console
-    '--upx-dir=C:/Users/vishn/Downloads/upx-5.0.0-win64/upx-5.0.0-win64',     # Path to UPX
+    '--upx-dir=C:/M3U_Playlist_Gen/tools/upx-5.0.0-win64/upx-5.0.0-win64',     # Path to UPX
     '--name=M3U_Playlist_Gen',
     '--add-data=assets/*;assets/',
     '--icon=assets/icon.ico',
